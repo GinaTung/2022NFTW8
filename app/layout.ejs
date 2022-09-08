@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%- title %></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/style/all.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+  <div class="border border-color border-bottom border-start-0 border-top-0 border-end-0 border-lg-0 ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 sticky-top">
+        <a class="navbar-brand col-lg-5  py-5 border-end me-0 border-lg-0" href="#">
+          <img src="./assets/images/logo (1).svg" alt="" width="190" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <div class="collapse navbar-collapse col-lg-7" id="navbarSupportedContent">
+          <form class="d-flex align-items-center justify-content-center border-end py-lg-6 px-lg-7 border-lg-0">
+            <input class="form-control" type="search" placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search"
+              style="width:288px; height:24px">
+            <span class="material-icons ms-lg-4">
+              search
+            </span>
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+            <li class="nav-item border-end border-lg-0">
+              <a class="nav-link px-xxl-7 px-lg-2 py-lg-5" href="#">探索</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item border-end border-lg-0">
+              <a class="nav-link  px-xxl-7 px-lg-2 py-lg-5" href="#">市值</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <li class="nav-item ps-xxl-7 ps-lg-2 d-none d-lg-block">
+              <img src="./assets/images/wallet-solid.svg" alt="" width="27" height="24">
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
 
-    <%- contents %>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+  <%- contents %>
 
     <footer class="footer">
       footer
@@ -56,6 +66,6 @@
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
-  </body>
+</body>
 
 </html>
