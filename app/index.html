@@ -5,32 +5,129 @@ engine: ejs
 current: index
 ---
 <div class="container">
-  <div class="banner">
+  <div class="recommend d-flex flex-wrap w-100">
     <div class="card mb-3 border border-color">
-      <div class="d-flex">
-        <div class="card-header text-align px-4 bg-black">
-          <a href="#" class="d-block d-flex align-items-center text-white">
+      <div class="d-flex h-100">
+        <div class="card-header text-align pt-4 px-4 bg-black">
+          <a href="#" class="d-block d-flex align-items-center text-white" style="line-height: 50px;">
             <span class="fs-1">Recommend</span>
-            <span class="text-align pt-3 fs-5" style="padding-bottom: 137px;">推 薦 系 列</span>
+            <span class="text-align pt-3 fs-5">推 薦 系 列</span>
           </a>
         </div>
+        <img src="./assets/images/art01.jpg" class="w-75" style="height:500px;" alt="...">
+        <div class="card-body pt-10 px-4 d-flex flex-column justify-content-between align-items-end">
+          <div class="card-body-content">
+            <span class="pb-1 mb-4">Kemus Wu</span>
+            <h1 class="card-title" style="line-height: 70px;">瞳孔:流動的脈絡</h1>
+            <p class="card-text">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
+          </div>
+          <div class="card-body-footer">
+            <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
+          </div>
 
-        <img src="./assets/images/art01.jpg" class="img-width-52" alt="...">
-        <div class="card-body pt-10 px-4">
-          <span class="pb-1 mb-4">Kemus Wu</span>
-          <h1 class="card-title" style="line-height: 70px;">瞳孔:流動的脈絡</h1>
-          <p class="card-text">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
         </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="./assets/images/art01.jpg" class="mw-100 h-auto" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+    <div class="row g-0 w-100">
+      <div class="col-6">
+        <div class="card mb-3 border border-color">
+          <div class="d-flex">
+            <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
+              <div class="card-body-content">
+                <span class="pb-1 mb-4">Joanne</span>
+                <h2 class="card-title mb-4" style="line-height:46px;">瞳孔:流動的脈絡</h2>
+                <p class="card-text">海洋的奧秘向我們揭示了深不可測的一面，它的深度——反映了我們的恐懼、同時也吸引著我們。</p>
+              </div>
+              <div class="card-body-footer">
+                <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="./assets/images/art02.jpg" style="width:329px;height:340px;" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3 border border-color">
+          <div class="d-flex">
+            <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
+              <div class="card-body-content">
+                <span class="pb-1 mb-4">Michael</span>
+                <h2 class="card-title mb-4" style="line-height:46px;">我家窗前的鳥</h2>
+                <p class="card-text">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+              </div>
+              <div class="card-body-footer">
+                <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="./assets/images/art21.jpg" style="width:329px;height:340px;" alt="...">
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
+
   </div>
+  <div class="Ranking">
+    <nav class="navbar navbar-light bg-light ">
+      <div class="container-fluid px-0 border-bottom d-flex align-items-end">
+        <a class="navbar-brand fs-1 pb-0">Ranking
+          <span class="fs-5">市價排行榜</span>
+        </a>
+        <div class="mb-1">
+          <a href="#" class="btn-triangle text-black btn-border">MORE</a>
+        </div>
+      </div>
+    </nav>
+    <div class="Ranking-cardlist d-flex justify-content-between">
+      <div class="card border">
+        <img src="./assets/images/art01.jpg" style="width:414px;height:374px;" alt="">
+        <ul class="list-group list-group-flush d-flex">
+          <li class="list-group-item border-bottom">散步遇到的女人</li>
+          <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+            <p>Zoe Jiang</p>
+            <div class="d-flex">
+              <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+              <span class="ms-1">300</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="card border">
+        <img src="./assets/images/art01.jpg" style="width:414px;height:374px;" alt="">
+        <ul class="list-group list-group-flush d-flex">
+          <li class="list-group-item border-bottom">散步遇到的女人</li>
+          <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+            <p>Zoe Jiang</p>
+            <div class="d-flex">
+              <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+              <span class="ms-1">300</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="card border">
+        <img src="./assets/images/art01.jpg" style="width:414px;height:374px;" alt="">
+        <ul class="list-group list-group-flush d-flex">
+          <li class="list-group-item border-bottom">散步遇到的女人</li>
+          <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+            <p>Zoe Jiang</p>
+            <div class="d-flex">
+              <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+              <span class="ms-1">300</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 </div>
 <div class="container">
   <h1 class="index__h1">這是一段話</h1>

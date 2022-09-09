@@ -1,0 +1,32 @@
+.btn-triangle {
+    position: relative;
+    // border: 1px solid #000;
+    padding: 8px 48px;
+  }
+  
+.btn-triangle::after {
+    content:"";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-left: 16px transparent solid;
+    border-bottom: 16px #E6553B solid;
+  }
+.btn-triangle:hover::after{
+    border-bottom: 16px black solid;
+  }
+  
+.btn-white{
+    background-color: white;
+    border:1px solid black;
+  }
+ .btn-white:hover{
+    background-color: #E6553B;
+    color: white !important;
+  }
+  
+  .btn-border:hover{
+    background-color: #E6553B;
+    color: white;
+    border: 1px solid black;
+  }
