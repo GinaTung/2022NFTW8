@@ -13333,4 +13333,10 @@ img {
   border: 1px solid black;
 }
 
+.box {
+  width: 64px;
+  height: 64px;
+  background: #fff;
+}
+
 /*# sourceMappingURL=all.css.map */
