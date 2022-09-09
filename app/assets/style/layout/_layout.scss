@@ -1,6 +1,20 @@
 
+.py-36{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
 @media(max-width:992px){
     .border-lg-0{
         border: none !important;
+    }
+}
+@media(min-width:992px) and( max-width:1200px){
+    .py-56{
+        padding-top: 56px !important;;
+        padding-bottom: 56px !important;;
+    }
+    .py-48{
+        padding-top: 48px !important;;
+        padding-bottom: 48px !important;;
     }
 }
