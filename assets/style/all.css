@@ -7522,12 +7522,28 @@ fieldset:disabled .btn {
   top: 25% !important;
 }
 
+.top-40 {
+  top: 40% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
 
+.top-70 {
+  top: 70% !important;
+}
+
 .top-75 {
   top: 75% !important;
+}
+
+.top-77 {
+  top: 77% !important;
+}
+
+.top-90 {
+  top: 90% !important;
 }
 
 .top-100 {
@@ -7546,12 +7562,28 @@ fieldset:disabled .btn {
   bottom: 25% !important;
 }
 
+.bottom-40 {
+  bottom: 40% !important;
+}
+
 .bottom-50 {
   bottom: 50% !important;
 }
 
+.bottom-70 {
+  bottom: 70% !important;
+}
+
 .bottom-75 {
   bottom: 75% !important;
+}
+
+.bottom-77 {
+  bottom: 77% !important;
+}
+
+.bottom-90 {
+  bottom: 90% !important;
 }
 
 .bottom-100 {
@@ -7570,12 +7602,28 @@ fieldset:disabled .btn {
   left: 25% !important;
 }
 
+.start-40 {
+  left: 40% !important;
+}
+
 .start-50 {
   left: 50% !important;
 }
 
+.start-70 {
+  left: 70% !important;
+}
+
 .start-75 {
   left: 75% !important;
+}
+
+.start-77 {
+  left: 77% !important;
+}
+
+.start-90 {
+  left: 90% !important;
 }
 
 .start-100 {
@@ -7594,12 +7642,28 @@ fieldset:disabled .btn {
   right: 25% !important;
 }
 
+.end-40 {
+  right: 40% !important;
+}
+
 .end-50 {
   right: 50% !important;
 }
 
+.end-70 {
+  right: 70% !important;
+}
+
 .end-75 {
   right: 75% !important;
+}
+
+.end-77 {
+  right: 77% !important;
+}
+
+.end-90 {
+  right: 90% !important;
 }
 
 .end-100 {
@@ -13258,6 +13322,7 @@ fieldset:disabled .btn {
 body {
   font-family: 'Noto Sans TC', sans-serif,'Squada One', cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: #F0F0F0;
+  font-weight: bold;
 }
 
 a {
@@ -13267,8 +13332,6 @@ a {
 img {
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 100%;
-  max-height: auto;
 }
 
 .text-align {
@@ -13337,6 +13400,26 @@ img {
   width: 64px;
   height: 64px;
   background: #fff;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 439px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=all.css.map */
