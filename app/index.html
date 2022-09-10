@@ -1,5 +1,5 @@
 ---
-title: Boostrap Index
+title: 首頁
 layout: ./app/layout.ejs
 engine: ejs
 current: index
@@ -29,7 +29,7 @@ current: index
       </div>
     </div>
     <div class="row g-0 w-100">
-      <div class="col-6">
+      <div class="col-6 w-50">
         <div class="card mb-3 border border-color">
           <div class="d-flex">
             <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
@@ -43,7 +43,7 @@ current: index
               </div>
             </div>
             <div class="col-6">
-              <img src="./assets/images/art02.jpg" style="width:329px;height:340px;" alt="...">
+              <img src="./assets/images/art02.jpg" class="w-100" style="height:340px;" alt="...">
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ current: index
               </div>
             </div>
             <div class="col-6">
-              <img src="./assets/images/art21.jpg" style="width:329px;height:340px;" alt="...">
+              <img src="./assets/images/art21.jpg" class="w-100" style="height:340px;" alt="...">
             </div>
 
           </div>
@@ -83,89 +83,128 @@ current: index
         </div>
       </div>
     </nav>
-    <div class="Ranking-cardlist d-flex justify-content-between flex-wrap">
-      <div class="card border position-relative">
-        <div class="box position-absolute border d-flex justify-content-center align-items-center">
-          <h2>1</h2>
-        </div>
-        <img src="./assets/images/art04.jpg" style="width:414px;" alt="">
-        <ul class="list-group list-group-flush d-flex">
-          <li class="list-group-item border-bottom">散步遇到的女人</li>
-          <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
-            <p>Zoe Jiang</p>
-            <div class="d-flex">
-              <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
-              <span class="ms-1">300</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="card border position-relative">
-        <div class="box position-absolute border d-flex justify-content-center align-items-center">
-          <h2>2</h2>
-        </div>
-        <img src="./assets/images/art05.jpg" style="width:414px;" alt="">
-        <ul class="list-group list-group-flush d-flex">
-          <li class="list-group-item border-bottom">散步遇到的女人</li>
-          <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
-            <p>Zoe Jiang</p>
-            <div class="d-flex">
-              <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
-              <span class="ms-1">300</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="card border position-relative">
-        <div class="box position-absolute border d-flex justify-content-center align-items-center">
-          <h2>3</h2>
-        </div>
-        <img src="./assets/images/art06.jpg" style="width:414px;" alt="">
-        <ul class="list-group list-group-flush d-flex">
-          <li class="list-group-item border-bottom">散步遇到的女人</li>
-          <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
-            <p>Zoe Jiang</p>
-            <div class="d-flex">
-              <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
-              <span class="ms-1">300</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="card mb-3 border border-color">
-        <div class="d-flex">
-          <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
-            <div class="card-body-content">
-              <span class="pb-1 mb-4">Michael</span>
-              <h2 class="card-title mb-4" style="line-height:46px;">我家窗前的鳥</h2>
-              <p class="card-text">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
-            </div>
-            <div class="card-body-footer">
-              <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
-            </div>
-          </div>
-          <div class="col-6">
-            <img src="./assets/images/art21.jpg" style="width:329px;height:340px;" alt="...">
-          </div>
+    <div class="Ranking-cardlist d-flex justify-content-between flex-wrap row g-0 gx-2 h-100">
+      <div class="col-4">
+        <div class="card border position-relative ">
 
+          <img src="./assets/images/art04.jpg" class="position-relative" alt="">
+          <div class="box position-absolute border d-flex justify-content-center align-items-center">
+            <span class="fs-2">1</span>
+          </div>
+          <div class="position-absolute top-77 end-0">
+            <a href="#" class="btn-triangle text-black btn-border">MORE</a>
+          </div>
+          <ul class="list-group list-group-flush d-flex">
+            <li class="list-group-item border-bottom">散步遇到的女人</li>
+            <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+              <p>Zoe Jiang</p>
+              <div class="d-flex">
+                <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                <span class="ms-1">300</span>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="card mb-3 border border-color">
-        <div class="d-flex">
-          <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
-            <div class="card-body-content">
-              <span class="pb-1 mb-4">Michael</span>
-              <h2 class="card-title mb-4" style="line-height:46px;">我家窗前的鳥</h2>
-              <p class="card-text">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
-            </div>
-            <div class="card-body-footer">
-              <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
-            </div>
-          </div>
-          <div class="col-6">
-            <img src="./assets/images/art21.jpg" style="width:329px;height:340px;" alt="...">
-          </div>
+      <div class="col-4 ">
+        <div class="card border position-relative h-100">
 
+          <img src="./assets/images/art05.jpg" class="h-100 position-relative" alt="">
+          <div class="box position-absolute border d-flex justify-content-center align-items-center">
+            <span class="fs-2">2</span>
+          </div>
+          <div class="position-absolute top-77 end-0">
+            <a href="#" class="btn-triangle text-black btn-border">MORE</a>
+          </div>
+          <ul class="list-group list-group-flush d-flex">
+            <li class="list-group-item border-bottom">散步遇到的女人</li>
+            <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+              <p>Zoe Jiang</p>
+              <div class="d-flex">
+                <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                <span class="ms-1">300</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border position-relative h-100">
+
+          <img src="./assets/images/art06.jpg" class="h-100 position-relative" alt="">
+          <div class="box position-absolute border d-flex justify-content-center align-items-center">
+            <span class="fs-2">3</span>
+          </div>
+          <div class="position-absolute top-77 end-0">
+            <a href="#" class="btn-triangle text-black btn-border">MORE</a>
+          </div>
+          <ul class="list-group list-group-flush d-flex">
+            <li class="list-group-item border-bottom">散步遇到的女人</li>
+            <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+              <p>Zoe Jiang</p>
+              <div class="d-flex">
+                <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                <span class="ms-1">300</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-3 border mt-4">
+          <div class="d-flex">
+            <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">4</span>
+            <img src="./assets/images/art29.jpg" class="border border-top-0 border-bottom-0" style="width:87px;"
+              alt="...">
+            <ul class="list-group list-group-flush d-flex w-100">
+              <li class="list-group-item border-bottom fs-6 py-3">散步遇到的女人</li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="mb-0">Zoe Jiang</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                  <span class="ms-1">300</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-3 border mt-4">
+          <div class="d-flex">
+            <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">5</span>
+            <img src="./assets/images/art07.jpg" class="border border-top-0 border-bottom-0" style="width:87px;"
+              alt="...">
+            <ul class="list-group list-group-flush d-flex w-100">
+              <li class="list-group-item border-bottom fs-6 py-3">散步遇到的女人</li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="mb-0">Zoe Jiang</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                  <span class="ms-1">300</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card mb-3 border mt-4">
+          <div class="d-flex">
+            <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">6</span>
+            <img src="./assets/images/art08.jpg" class="border border-top-0 border-bottom-0 " style="width:87px;"
+              alt="...">
+            <ul class="list-group list-group-flush d-flex w-100">
+              <li class="list-group-item border-bottom fs-6 py-3">散步遇到的女人</li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="mb-0">Zoe Jiang</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                  <span class="ms-1">300</span>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -182,6 +221,27 @@ current: index
         </div>
       </div>
     </nav>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./assets/images/artist01.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/artist02.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/artist03.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/artist04.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/artist05.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </div>
 
