@@ -9,6 +9,44 @@
   background: #fff;
 }
 
+.text-transparent {
+  color: transparent; /* 文字顏色設定透明 */
+}
+.bg-1 {
+  position: relative;
+  background-image: url("../images/art29.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+.bg-2 {
+  position: relative;
+  background-image: url("../images/art07.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+.bg-3 {
+  position: relative;
+  background-image: url("../images/art08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+// 遮罩
+.mask:hover::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
 .swiper {
   width: 100%;
   height: auto;
@@ -21,10 +59,23 @@
   background-size: cover;
   width: 600px;
   height: 439px;
+  z-index: 8;
 }
 
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
+}
+.box3{
+  background: #FFFFFF;
+  z-index: 5;
+  opacity: 0.85;
+  width: 307px;
+  height: 96px;
+  margin: 24px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
