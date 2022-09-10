@@ -16,7 +16,8 @@ var swiper = new Swiper(".mySwiper", {
     slideShadows: true
   },
   pagination: {
-    el: ".swiper-pagination"
+    el: ".swiper-pagination",
+    clickable: true
   }
 });
 //# sourceMappingURL=all.js.map

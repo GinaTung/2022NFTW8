@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7542,6 +7543,10 @@ fieldset:disabled .btn {
   top: 77% !important;
 }
 
+.top-85 {
+  top: 85% !important;
+}
+
 .top-90 {
   top: 90% !important;
 }
@@ -7580,6 +7585,10 @@ fieldset:disabled .btn {
 
 .bottom-77 {
   bottom: 77% !important;
+}
+
+.bottom-85 {
+  bottom: 85% !important;
 }
 
 .bottom-90 {
@@ -7622,6 +7631,10 @@ fieldset:disabled .btn {
   left: 77% !important;
 }
 
+.start-85 {
+  left: 85% !important;
+}
+
 .start-90 {
   left: 90% !important;
 }
@@ -7660,6 +7673,10 @@ fieldset:disabled .btn {
 
 .end-77 {
   right: 77% !important;
+}
+
+.end-85 {
+  right: 85% !important;
 }
 
 .end-90 {
@@ -13320,7 +13337,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: 'Noto Sans TC', sans-serif,'Squada One', cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Squada One','Noto Sans TC', sans-serif, cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: #F0F0F0;
   font-weight: bold;
 }
@@ -13396,10 +13413,75 @@ img {
   border: 1px solid black;
 }
 
+.btn-triangle2 {
+  position: relative;
+  padding: 8px 48px;
+}
+
+.btn-triangle2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-left: 16px transparent solid;
+  border-bottom: 16px transparent solid;
+}
+
+.btn-triangle2:hover::after {
+  border-bottom: 16px #E6553B solid;
+}
+
+.text-color:hover {
+  background-color: #E6553B;
+  color: white;
+  border: 1px solid black;
+}
+
 .box {
   width: 64px;
   height: 64px;
   background: #fff;
+}
+
+.text-transparent {
+  color: transparent;
+  /* 文字顏色設定透明 */
+}
+
+.bg-1 {
+  position: relative;
+  background-image: url("../images/art29.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+.bg-2 {
+  position: relative;
+  background-image: url("../images/art07.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+.bg-3 {
+  position: relative;
+  background-image: url("../images/art08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+.mask:hover::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
 }
 
 .swiper {
@@ -13414,12 +13496,32 @@ img {
   background-size: cover;
   width: 600px;
   height: 439px;
+  z-index: 8;
 }
 
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.box3 {
+  background: #FFFFFF;
+  z-index: 5;
+  opacity: 0.85;
+  width: 307px;
+  height: 96px;
+  margin: 24px;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*# sourceMappingURL=all.css.map */
