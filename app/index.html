@@ -1,25 +1,25 @@
 ---
-title: 首頁
+title: NFT藝術家交易平台
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 <div class="container">
   <div class="recommend d-flex flex-wrap w-100">
-    <div class="card mb-3 border border-color">
-      <div class="d-flex h-100">
-        <div class="card-header text-align pt-4 px-4 bg-black">
+    <div class="card mb-lg-3 mb-0 border border-color">
+      <div class="d-flex h-100 flex-column flex-lg-row">
+        <div class="card-header text-align pt-4 px-4 bg-black d-none d-lg-block">
           <a href="#" class="d-block d-flex align-items-center text-white" style="line-height: 50px;">
             <span class="fs-1">Recommend</span>
             <span class="text-align pt-3 fs-5">推 薦 系 列</span>
           </a>
         </div>
-        <img src="./assets/images/art01.jpg" class="w-75" style="height:500px;" alt="...">
-        <div class="card-body pt-10 px-4 d-flex flex-column justify-content-between align-items-end">
+        <img src="./assets/images/art01.jpg" class="w-xl-75 w-lg-50 w-100" style="height:500px;" alt="...">
+        <div class="card-body pt-lg-10 pt-5 px-4 d-flex flex-column justify-content-between align-items-end">
           <div class="card-body-content">
             <span class="pb-1 mb-4">Kemus Wu</span>
             <h1 class="card-title" style="line-height: 70px;">瞳孔:流動的脈絡</h1>
-            <p class="card-text">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
+            <p class="card-text mb-4 mb-lg-0">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
           </div>
           <div class="card-body-footer">
             <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
@@ -28,41 +28,43 @@ current: index
         </div>
       </div>
     </div>
-    <div class="row g-0 w-100">
-      <div class="col-6 w-50">
-        <div class="card mb-3 border border-color">
-          <div class="d-flex">
-            <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
-              <div class="card-body-content">
+    <div class="row g-0 w-100 h-100">
+      <div class="col-lg-6 col-12">
+        <div class="card mb-3 border border-color h-100">
+          <div class="d-flex h-100 flex-wrap-reverse">
+            <div
+              class="card-body pt-md-8 pt-5 px-4 d-flex flex-column justify-content-between align-items-end w-md-50 w-100">
+              <div class="card-body-content h-100">
                 <span class="pb-1 mb-4">Joanne</span>
-                <h2 class="card-title mb-4" style="line-height:46px;">瞳孔:流動的脈絡</h2>
+                <h2 class="card-title mb-xl-4" style="line-height:46px;">瞳孔:流動的脈絡</h2>
                 <p class="card-text">海洋的奧秘向我們揭示了深不可測的一面，它的深度——反映了我們的恐懼、同時也吸引著我們。</p>
               </div>
               <div class="card-body-footer">
                 <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
               </div>
             </div>
-            <div class="col-6">
-              <img src="./assets/images/art02.jpg" class="w-100" style="height:340px;" alt="...">
+            <div class="w-md-50 w-100 ">
+              <img src="./assets/images/art02.jpg" class="w-100 h-100" alt="...">
             </div>
           </div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="card mb-3 border border-color">
-          <div class="d-flex">
-            <div class="card-body pt-8 px-4 d-flex flex-column justify-content-between align-items-end col-6">
-              <div class="card-body-content">
+      <div class="col-lg-6 col-12">
+        <div class="card mb-3 border border-color h-100">
+          <div class="d-flex h-100 flex-wrap-reverse">
+            <div
+              class="card-body pt-md-8 pt-5 px-4 d-flex flex-column justify-content-between align-items-end w-md-50 w-100">
+              <div class="card-body-content h-100">
                 <span class="pb-1 mb-4">Michael</span>
-                <h2 class="card-title mb-4" style="line-height:46px;">我家窗前的鳥</h2>
+                <h2 class="card-title mb-xl-4" style="line-height:46px;">我家窗前的鳥</h2>
                 <p class="card-text">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
               </div>
               <div class="card-body-footer">
                 <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
               </div>
             </div>
-            <div class="col-6">
-              <img src="./assets/images/art21.jpg" class="w-100" style="height:340px;" alt="...">
+            <div class="w-md-50 w-100">
+              <img src="./assets/images/art21.jpg" class="w-100 h-100" alt="...">
             </div>
 
           </div>
@@ -76,7 +78,7 @@ current: index
     <nav class="navbar navbar-light bg-light ">
       <div class="container-fluid px-0 border-bottom d-flex align-items-end">
         <a class="navbar-brand fs-1 pb-0">Ranking
-          <span class="fs-5">市價排行榜</span>
+          <span class="fs-5 d-none d-md-inline">市價排行榜</span>
         </a>
         <div class="mb-1">
           <a href="#" class="btn-triangle text-black btn-border">MORE</a>
@@ -84,16 +86,14 @@ current: index
       </div>
     </nav>
     <div class="Ranking-cardlist d-flex justify-content-between flex-wrap row g-0 gx-2 h-100">
-      <div class="col-4">
-        <div class="card border position-relative ">
+      <div class="col-12 col-md-4 d-none d-md-block">
+        <div class="card border position-relative">
           <div class="position-relative h-100">
             <img src="./assets/images/art04.jpg" class="h-100 w-100" alt="">
             <div class="position-absolute bottom-0 end-0 mb-1">
               <a href="#" class="btn-triangle btn-border text-transparent">MORE</a>
             </div>
           </div>
-
-
           <div class="box position-absolute border d-flex justify-content-center align-items-center">
             <span class="fs-2">1</span>
           </div>
@@ -103,14 +103,40 @@ current: index
             <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
               <p>Zoe Jiang</p>
               <div class="d-flex">
-                <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                <i class="fa-brands fa-ethereum"></i>
                 <span class="ms-1">300</span>
               </div>
             </li>
           </ul>
         </div>
       </div>
-      <div class="col-4 ">
+      <div class="col-12 col-md-4  d-md-none">
+        <div class="card mb-3 border mt-4">
+          <div class="d-flex">
+            <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">1</span>
+            <!-- <img src="./assets/images/art29.jpg" class="border border-top-0 border-bottom-0" style="width:87px;"
+              alt="..."> -->
+            <!-- 使用背景遮罩及按鈕遮罩 -->
+            <div
+              class="bg-4 mask border border-top-0 border-bottom-0 d-flex justify-content-center align-items-center btn-triangle2 text-color text-transparent">
+              more
+            </div>
+
+            <ul class="list-group list-group-flush d-flex w-100">
+              <li class="list-group-item border-bottom fs-6 py-3">散步遇到的女人</li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="mb-0">Zoe Jiang</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-ethereum"></i>
+                  <!-- <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt=""> -->
+                  <span class="ms-1">300</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 d-none d-md-block">
         <div class="card border position-relative h-100">
           <div class="position-relative h-100">
             <img src="./assets/images/art05.jpg" class="h-100 w-100" alt="">
@@ -124,18 +150,44 @@ current: index
           </div>
 
           <ul class="list-group list-group-flush d-flex">
-            <li class="list-group-item border-bottom">散步遇到的女人</li>
+            <li class="list-group-item border-bottom">爆炸頭的母親</li>
             <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
-              <p>Zoe Jiang</p>
+              <p>Yui</p>
               <div class="d-flex">
-                <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                <i class="fa-brands fa-ethereum"></i>
                 <span class="ms-1">300</span>
               </div>
             </li>
           </ul>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4  d-md-none">
+        <div class="card mb-3 border mt-4">
+          <div class="d-flex">
+            <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">2</span>
+            <!-- <img src="./assets/images/art29.jpg" class="border border-top-0 border-bottom-0" style="width:87px;"
+              alt="..."> -->
+            <!-- 使用背景遮罩及按鈕遮罩 -->
+            <div
+              class="bg-5 mask border border-top-0 border-bottom-0 d-flex justify-content-center align-items-center btn-triangle2 text-color text-transparent">
+              more
+            </div>
+
+            <ul class="list-group list-group-flush d-flex w-100">
+              <li class="list-group-item border-bottom fs-6 py-3">爆炸頭的母親</li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="mb-0">Yui</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-ethereum"></i>
+                  <!-- <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt=""> -->
+                  <span class="ms-1">300</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 d-none d-md-block">
         <div class="card border position-relative h-100">
           <div class="position-relative h-100">
             <img src="./assets/images/art06.jpg" class="h-100 w-100" alt="">
@@ -149,18 +201,44 @@ current: index
           </div>
 
           <ul class="list-group list-group-flush d-flex">
-            <li class="list-group-item border-bottom">散步遇到的女人</li>
+            <li class="list-group-item border-bottom">夏天的時候</li>
             <li class="list-group-item d-flex w-100 justify-content-between align-items-center">
-              <p>Zoe Jiang</p>
+              <p>Bug Lin</p>
               <div class="d-flex">
-                <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                <i class="fa-brands fa-ethereum"></i>
                 <span class="ms-1">300</span>
               </div>
             </li>
           </ul>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4  d-md-none">
+        <div class="card mb-3 border mt-4">
+          <div class="d-flex">
+            <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">3</span>
+            <!-- <img src="./assets/images/art29.jpg" class="border border-top-0 border-bottom-0" style="width:87px;"
+              alt="..."> -->
+            <!-- 使用背景遮罩及按鈕遮罩 -->
+            <div
+              class="bg-6 mask border border-top-0 border-bottom-0 d-flex justify-content-center align-items-center btn-triangle2 text-color text-transparent">
+              more
+            </div>
+
+            <ul class="list-group list-group-flush d-flex w-100">
+              <li class="list-group-item border-bottom fs-6 py-3">夏天的時候</li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="mb-0">Bug Lin</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-ethereum"></i>
+                  <!-- <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt=""> -->
+                  <span class="ms-1">300</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card mb-3 border mt-4">
           <div class="d-flex">
             <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">4</span>
@@ -173,11 +251,11 @@ current: index
             </div>
 
             <ul class="list-group list-group-flush d-flex w-100">
-              <li class="list-group-item border-bottom fs-6 py-3">追求者送我的花</li>
+              <li class="list-group-item border-bottom fs-6 py-lg-4 py-1">追求者送我的花</li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <p class="mb-0">Michael</p>
                 <div class="d-flex justify-content-center align-items-center">
-                  <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                  <i class="fa-brands fa-ethereum"></i>
                   <span class="ms-1">300</span>
                 </div>
               </li>
@@ -185,7 +263,7 @@ current: index
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <div class="card mb-3 border mt-4">
           <div class="d-flex">
             <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">5</span>
@@ -196,11 +274,11 @@ current: index
               more
             </div>
             <ul class="list-group list-group-flush d-flex w-100">
-              <li class="list-group-item border-bottom fs-6 py-3">今天釣到的魚</li>
+              <li class="list-group-item border-bottom fs-6 py-lg-4 py-1">今天釣到的魚</li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <p class="mb-0">Wei JJ</p>
                 <div class="d-flex justify-content-center align-items-center">
-                  <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                  <i class="fa-brands fa-ethereum"></i>
                   <span class="ms-1">300</span>
                 </div>
               </li>
@@ -208,8 +286,8 @@ current: index
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card mb-3 border mt-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card mb-3 border mt-4 mt-del">
           <div class="d-flex">
             <span class="d-flex justify-content-between align-items-center px-3 py-4 fs-4">6</span>
             <!-- <img src="./assets/images/art08.jpg" class="border border-top-0 border-bottom-0 " style="width:87px;"
@@ -219,11 +297,11 @@ current: index
               more
             </div>
             <ul class="list-group list-group-flush d-flex w-100">
-              <li class="list-group-item border-bottom fs-6 py-3">人生中的貓咪們</li>
+              <li class="list-group-item border-bottom fs-6 py-lg-4 py-1">人生中的貓咪們</li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <p class="mb-0">Even Lai</p>
                 <div class="d-flex justify-content-center align-items-center">
-                  <img src="./assets/images/ethereum.svg" style="width:9px;height:17px;" alt="">
+                  <i class="fa-brands fa-ethereum"></i>
                   <span class="ms-1">300</span>
                 </div>
               </li>
@@ -238,7 +316,7 @@ current: index
     <nav class="navbar navbar-light bg-light ">
       <div class="container-fluid px-0 border-bottom d-flex align-items-end">
         <a class="navbar-brand fs-1 pb-0">Artist
-          <span class="fs-5">最新藝術品</span>
+          <span class="fs-5 d-none d-md-inline ">最新藝術品</span>
         </a>
         <div class="mb-1">
           <a href="#" class="btn-triangle text-black btn-border">MORE</a>
@@ -259,7 +337,7 @@ current: index
           <div class="display-1 position-absolute top-0 start-0 text-white m-4">Antony <br>Wu</div>
           <a href="#"
             class="btn-triangle btn-white btn-border text-black position-absolute top-90 end-0 mx-4 translate-middle-y">MORE</a>
-          <div class="box3 position-absolute bottom-0 start-0">
+          <div class="box3 position-absolute bottom-0 start-0 d-none d-md-block">
             ​喜愛大自然，創作題材常見大山、大水、花草與樹木。
           </div>
         </div>
@@ -287,7 +365,7 @@ current: index
     <nav class="navbar navbar-light bg-light ">
       <div class="container-fluid px-0 border-bottom d-flex align-items-end">
         <a class="navbar-brand fs-1 pb-0">Artwork
-          <span class="fs-5">最新藝術品</span>
+          <span class="fs-5 d-none d-md-inline">最新藝術品</span>
         </a>
         <div class="mb-1">
           <a href="#" class="btn-triangle text-black btn-border">MORE</a>
@@ -362,7 +440,7 @@ current: index
     </div>
     <div class="container py-10">
       <div class="row g-0">
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <div class="card d-flex bg-light border-0 ">
             <ul class="card-body list-unstyled d-flex text-center flex-column align-items-center">
               <li class="mb-3"><i class="fa-solid fa-wallet" style="font-size:46px;color:#E6553B;"></i></li>
@@ -371,7 +449,7 @@ current: index
             </ul>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <div class="card d-flex bg-light border-0">
             <ul class="card-body list-unstyled d-flex text-center flex-column align-items-center">
               <li class="mb-3"> <i class="fa-solid fa-pen-ruler" style="font-size:46px;color:#E6553B;"></i></li>
@@ -380,7 +458,7 @@ current: index
             </ul>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <div class="card d-flex bg-light border-0">
             <ul class="card-body list-unstyled d-flex text-center flex-column align-items-center">
               <li class="mb-3"> <i class="fa-solid fa-icons" style="font-size:46px;color:#E6553B;"></i></li>
@@ -389,7 +467,7 @@ current: index
             </ul>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <div class="card d-flex bg-light border-0">
             <ul class="card-body list-unstyled d-flex text-center flex-column align-items-center">
               <li class="mb-3"> <i class="fa-solid fa-tag" style="font-size:46px;color:#E6553B;"></i></li>

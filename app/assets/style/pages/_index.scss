@@ -34,6 +34,32 @@
   background-repeat: no-repeat;
   width: 87px;
 }
+.bg-4 {
+  position: relative;
+  background-image: url("../images/art04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+.bg-5 {
+  position: relative;
+  background-image: url("../images/art05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+.bg-6 {
+  position: relative;
+  background-image: url("../images/art06.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+@media(max-width:992px)and (min-width:768px) {
+  .mt-del {
+    margin-top: 0 !important;
+  }
+}
 // 遮罩
 .mask:hover::before {
   position: absolute;
@@ -53,7 +79,11 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
+@media(max-width:576px){
+  .swiper {
+    padding: 0;
+  }
+}
 .swiper-slide {
   background-position: center;
   background-size: cover;
@@ -61,7 +91,11 @@
   height: 439px;
   z-index: 8;
 }
-
+@media(max-width:576px){
+  .swiper-slide {
+    width: 300px ;
+  }
+}
 .swiper-slide img {
   display: block;
   width: 100%;

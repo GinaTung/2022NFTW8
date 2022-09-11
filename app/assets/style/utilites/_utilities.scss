@@ -4,6 +4,7 @@ $utilities: map-merge(
     "width": (
       property: width,
       class: w,
+      responsive: true,
       values: (
         25: 25%,
         35: 35%,
@@ -18,11 +19,13 @@ $utilities: map-merge(
       "viewport-width": (
         property: width,
         class: vw,
+        responsive: true,
         values: (100: 100vw,90: 90vw)
       ),
     "height": (
       property: height,
       class: h,
+      responsive: true,
       values: (
         25: 25%,
         35: 35%,
@@ -37,6 +40,7 @@ $utilities: map-merge(
     "viewport-height": (
       property: height,
       class: vh,
+      responsive: true,
       values: (100: 100vh)
     ),
     )
