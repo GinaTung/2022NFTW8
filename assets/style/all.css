@@ -8895,6 +8895,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-8 {
+  font-size: 0.75rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -9230,6 +9234,33 @@ fieldset:disabled .btn {
   }
   .d-sm-none {
     display: none !important;
+  }
+  .w-sm-25 {
+    width: 25% !important;
+  }
+  .w-sm-35 {
+    width: 35% !important;
+  }
+  .w-sm-40 {
+    width: 40% !important;
+  }
+  .w-sm-50 {
+    width: 50% !important;
+  }
+  .w-sm-65 {
+    width: 65% !important;
+  }
+  .w-sm-75 {
+    width: 75% !important;
+  }
+  .w-sm-90 {
+    width: 90% !important;
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .w-sm-auto {
+    width: auto !important;
   }
   .flex-sm-fill {
     -webkit-box-flex: 1 !important;
@@ -10049,6 +10080,33 @@ fieldset:disabled .btn {
   .d-md-none {
     display: none !important;
   }
+  .w-md-25 {
+    width: 25% !important;
+  }
+  .w-md-35 {
+    width: 35% !important;
+  }
+  .w-md-40 {
+    width: 40% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-65 {
+    width: 65% !important;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .w-md-90 {
+    width: 90% !important;
+  }
+  .w-md-100 {
+    width: 100% !important;
+  }
+  .w-md-auto {
+    width: auto !important;
+  }
   .flex-md-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -10866,6 +10924,33 @@ fieldset:disabled .btn {
   }
   .d-lg-none {
     display: none !important;
+  }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .w-lg-35 {
+    width: 35% !important;
+  }
+  .w-lg-40 {
+    width: 40% !important;
+  }
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-65 {
+    width: 65% !important;
+  }
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .w-lg-90 {
+    width: 90% !important;
+  }
+  .w-lg-100 {
+    width: 100% !important;
+  }
+  .w-lg-auto {
+    width: auto !important;
   }
   .flex-lg-fill {
     -webkit-box-flex: 1 !important;
@@ -11685,6 +11770,33 @@ fieldset:disabled .btn {
   .d-xl-none {
     display: none !important;
   }
+  .w-xl-25 {
+    width: 25% !important;
+  }
+  .w-xl-35 {
+    width: 35% !important;
+  }
+  .w-xl-40 {
+    width: 40% !important;
+  }
+  .w-xl-50 {
+    width: 50% !important;
+  }
+  .w-xl-65 {
+    width: 65% !important;
+  }
+  .w-xl-75 {
+    width: 75% !important;
+  }
+  .w-xl-90 {
+    width: 90% !important;
+  }
+  .w-xl-100 {
+    width: 100% !important;
+  }
+  .w-xl-auto {
+    width: auto !important;
+  }
   .flex-xl-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -12502,6 +12614,33 @@ fieldset:disabled .btn {
   }
   .d-xxl-none {
     display: none !important;
+  }
+  .w-xxl-25 {
+    width: 25% !important;
+  }
+  .w-xxl-35 {
+    width: 35% !important;
+  }
+  .w-xxl-40 {
+    width: 40% !important;
+  }
+  .w-xxl-50 {
+    width: 50% !important;
+  }
+  .w-xxl-65 {
+    width: 65% !important;
+  }
+  .w-xxl-75 {
+    width: 75% !important;
+  }
+  .w-xxl-90 {
+    width: 90% !important;
+  }
+  .w-xxl-100 {
+    width: 100% !important;
+  }
+  .w-xxl-auto {
+    width: auto !important;
   }
   .flex-xxl-fill {
     -webkit-box-flex: 1 !important;
@@ -13379,6 +13518,13 @@ img {
   }
 }
 
+@media (min-width: 1200px) {
+  .py-38 {
+    padding-top: 38px !important;
+    padding-bottom: 38px !important;
+  }
+}
+
 .btn-triangle {
   position: relative;
   padding: 8px 48px;
@@ -13472,6 +13618,36 @@ img {
   width: 87px;
 }
 
+.bg-4 {
+  position: relative;
+  background-image: url("../images/art04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+.bg-5 {
+  position: relative;
+  background-image: url("../images/art05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+.bg-6 {
+  position: relative;
+  background-image: url("../images/art06.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87px;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .mt-del {
+    margin-top: 0 !important;
+  }
+}
+
 .mask:hover::before {
   position: absolute;
   content: "";
@@ -13491,12 +13667,24 @@ img {
   padding-bottom: 50px;
 }
 
+@media (max-width: 576px) {
+  .swiper {
+    padding: 0;
+  }
+}
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 600px;
   height: 439px;
   z-index: 8;
+}
+
+@media (max-width: 576px) {
+  .swiper-slide {
+    width: 300px;
+  }
 }
 
 .swiper-slide img {
