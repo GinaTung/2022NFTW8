@@ -13525,6 +13525,10 @@ img {
   }
 }
 
+.text-search {
+  background-color: transparent;
+}
+
 .btn-triangle {
   position: relative;
   padding: 8px 48px;

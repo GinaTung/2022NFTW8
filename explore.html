@@ -27,19 +27,33 @@
   <div
     class="border border-color border-bottom border-start-0 border-top-0 border-end-0 border-lg-0 mb-lg-6 sticky-top bg-light">
     <div class="container ">
+      <div class="search-active py-3">
+        <form class="d-flex align-items-center justify-content-between d-lg-none ">
+          <span class="material-icons">
+            chevron_left
+          </span>
+
+          <input class="form-control d-lg-block text-search border-0 border-bottom w-100" type="search"
+            placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search" style="width:288px; height:24px">
+          <span class="material-icons ms-4 me-4 search2">
+            search
+          </span>
+        </form>
+      </div>
+
       <nav class="navbar navbar-expand-lg navbar-light py-0 sticky-top d-flex ">
-        <a class="navbar-brand py-3 py-36 py-48 py-38 border-end me-0 border-lg-0 w-40" href="index.html">
+        <a class="navbar-brand py-3 py-36 py-48 py-38 border-end me-0 border-lg-0 w-40 navber-logo" href="index.html">
           <img src="./assets/images/logo (1).svg" alt="" width="190" height="40">
         </a>
         <div class="d-flex">
           <form class="d-flex align-items-center justify-content-center d-lg-none">
-            <input class="form-control d-none d-lg-block" type="search" placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search"
-              style="width:288px; height:24px">
-            <span class="material-icons ms-4 me-4">
+            <!-- <input class="form-control d-none d-lg-block border-0" type="search" placeholder="搜尋作品名稱、藝術家名稱"
+              aria-label="Search" style="width:288px; height:24px"> -->
+            <span class="material-icons ms-4 me-4 search">
               search
             </span>
           </form>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler navbar-menu" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
