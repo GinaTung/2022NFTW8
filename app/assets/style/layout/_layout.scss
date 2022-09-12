@@ -7,15 +7,21 @@
     .border-lg-0{
         border: none !important;
     }
+    .navbar-menu2{
+        background-color: $white;
+    }
+    .nav-link{
+        border-bottom: 1px solid black !important;
+    }
 }
 @media(min-width:992px) and( max-width:1200px){
-    .py-56{
-        padding-top: 56px !important;;
-        padding-bottom: 56px !important;;
+    .py-59{
+        padding-top: 59px !important;;
+        padding-bottom: 59px !important;;
     }
-    .py-48{
-        padding-top: 48px !important;;
-        padding-bottom: 48px !important;;
+    .py-51{
+        padding-top: 51px !important;;
+        padding-bottom: 51px !important;;
     }
 }
 @media(min-width:1200px){
@@ -27,3 +33,4 @@
 .text-search{
     background-color: transparent;
 }
+
