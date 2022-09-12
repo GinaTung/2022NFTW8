@@ -13514,17 +13514,17 @@ img {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .py-59 {
-    padding-top: 59px !important;
-    padding-bottom: 59px !important;
-  }
-  .py-51 {
-    padding-top: 51px !important;
-    padding-bottom: 51px !important;
+  .py-40 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
   }
 }
 
 @media (min-width: 1200px) {
+  .py-40 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
   .py-38 {
     padding-top: 38px !important;
     padding-bottom: 38px !important;
@@ -13532,6 +13532,10 @@ img {
 }
 
 .text-search {
+  background-color: transparent;
+}
+
+.text-search-bg {
   background-color: transparent;
 }
 
