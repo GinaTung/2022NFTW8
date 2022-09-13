@@ -1,6 +1,8 @@
 $(function() {
     $('.text-search').hide();
     $('.search-active').hide();
+    $('.add-list').hide();
+    $('.remove-list').hide();
 })
 $('.search').on("click", function (e) {
     $('.navber-logo').hide();
@@ -19,4 +21,17 @@ $('.close-img').on("click", function (e) {
     $('.navbar-menu').show();
  // $(this).find('h4').toggleClass('active');
  // $(this).find('.y').toggle();
+})
+$('.img-add').on("click", function (e) {
+    $('.add-list').show();
+    $('.img-add').hide();
+})
+// $('.img-remove').on("click", function (e) {
+//     $('.add-list').hide();
+// })
+$('.remove-list').on("click", function (e) {
+    $('.add-list').hide();
+})
+$('.add-list').on("click", function (e) {
+    $('.add-list').toggle();
 })

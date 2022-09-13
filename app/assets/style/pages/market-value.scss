@@ -1,0 +1,42 @@
+@media(max-width:992px){
+    .table-d-none1 {
+        display: none;
+    }
+  }
+
+@media(max-width:576px){
+    .table-d-none2 {
+        display: none;
+    }
+  }
+
+  .btn-triangle3 {
+    position: relative;
+    // border: 1px solid #000;
+    z-index: -1;
+  }
+  // 按鈕遮罩
+  .btn-triangle3::after {
+    content:"";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-left: 32px transparent solid;
+    border-bottom: 32px black solid;
+    // opacity: 0.5;
+    z-index: -1;
+  }
+  .btn-triangle3:hover::after{
+    border-bottom: 32px #E6553B solid;
+    z-index: -1;
+  }
+
+  .img-add{
+    color: white;
+    z-index: 200;
+  }
+
+  .remove-list{
+    color: white;
+    z-index: 199;
+  }
