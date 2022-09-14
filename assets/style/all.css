@@ -13791,13 +13791,33 @@ img {
   z-index: -1;
 }
 
-.img-add {
-  color: white;
-  z-index: 200;
+.add-remove, .add-remove2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 3px;
+  z-index: 199;
 }
 
-.remove-list {
-  color: white;
+.x {
+  -webkit-transform: matrix(0, 1, -1, 0, 0, 0);
+      -ms-transform: matrix(0, 1, -1, 0, 0, 0);
+          transform: matrix(0, 1, -1, 0, 0, 0);
+  background: #fff 0% 0% no-repeat padding-box;
+  width: 2px;
+  height: 15px;
+  display: block;
+  z-index: 199;
+}
+
+.y, .y2 {
+  background: #fff 0% 0% no-repeat padding-box;
+  width: 2px;
+  height: 15px;
+  display: block;
   z-index: 199;
 }
 
