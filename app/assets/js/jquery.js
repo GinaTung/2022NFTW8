@@ -3,6 +3,7 @@ $(function() {
     $('.search-active').hide();
     $('.add-list').hide();
     $('.remove-list').hide();
+    $('.add-list2').hide();
 })
 $('.search').on("click", function (e) {
     $('.navber-logo').hide();
@@ -22,16 +23,24 @@ $('.close-img').on("click", function (e) {
  // $(this).find('h4').toggleClass('active');
  // $(this).find('.y').toggle();
 })
-$('.img-add').on("click", function (e) {
-    $('.add-list').show();
-    $('.img-add').hide();
-})
-// $('.img-remove').on("click", function (e) {
-//     $('.add-list').hide();
-// })
-$('.remove-list').on("click", function (e) {
-    $('.add-list').hide();
-})
-$('.add-list').on("click", function (e) {
+$('.add-remove').on("click", function (e) {
     $('.add-list').toggle();
+    $(this).find('.y').toggle();
+    
 })
+
+// $('.add-remove').on("click", function (e) {
+//     $('.add-list').toggle();
+//     $(this).siblings('.add-list').slideToggle(1000);
+//     // $(this).find('h4').toggleClass('active');
+//     $(this).find('.img-add').hide();
+//     $(this).find('.remove-list').toggle();
+    
+// })
+// $('.add-remove2').on("click", function (e) {
+//     $('.add-list2').toggle();
+//     $(this).siblings('.add-list2').slideToggle(1000);
+//     // $(this).find('h4').toggleClass('active');
+//     $(this).find('.y2').toggle();
+    
+// })

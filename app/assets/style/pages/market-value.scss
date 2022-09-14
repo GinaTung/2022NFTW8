@@ -31,12 +31,33 @@
     z-index: -1;
   }
 
-  .img-add{
-    color: white;
-    z-index: 200;
-  }
+  // .img-add{
+  //   color: white;
+  //   z-index: 199;
+  // }
 
-  .remove-list{
-    color: white;
+  // .remove-list{
+  //   color: white;
+  //   z-index: 199;
+  // }
+  .add-remove,.add-remove2{
+    display: flex;
+    justify-content: end;
+    padding: 3px;
+    z-index: 199;
+  }
+  .x{
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    background: $white 0% 0% no-repeat padding-box;
+    width: 2px;
+    height: 15px;
+    display: block;
+    z-index: 199;
+  }
+  .y,.y2{
+    background: $white 0% 0% no-repeat padding-box;
+    width: 2px;
+    height: 15px;
+    display: block;
     z-index: 199;
   }
