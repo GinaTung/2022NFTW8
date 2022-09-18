@@ -13642,6 +13642,7 @@ img {
   background-image: url("../images/art29.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   width: 87px;
 }
 
@@ -13650,6 +13651,7 @@ img {
   background-image: url("../images/art07.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   width: 87px;
 }
 
@@ -13658,6 +13660,7 @@ img {
   background-image: url("../images/art08.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   width: 87px;
 }
 
@@ -13666,6 +13669,7 @@ img {
   background-image: url("../images/art04.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   width: 87px;
 }
 
@@ -13674,6 +13678,7 @@ img {
   background-image: url("../images/art05.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   width: 87px;
 }
 
@@ -13682,6 +13687,7 @@ img {
   background-image: url("../images/art06.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
   width: 87px;
 }
 
