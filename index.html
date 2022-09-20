@@ -96,9 +96,10 @@
 
 
 
-  <div class="container">
-  <div class="recommend d-flex flex-wrap w-100">
-    <div class="card mb-lg-3 mb-0 border border-color">
+  
+<div class="container">
+  <div class="recommend d-flex flex-wrap w-100 d-none d-sm-block">
+    <div class="card mb-0 border border-color">
       <div class="d-flex h-100 flex-column flex-lg-row">
         <div class="card-header text-align pt-4 px-4 bg-black d-none d-lg-block">
           <a href="#" class="d-block d-flex align-items-center text-white" style="line-height: 50px;">
@@ -166,13 +167,86 @@
     </div>
 
   </div>
+
+
+</div>
+<div class="recommend d-flex flex-wrap w-100 d-sm-none">
+  <div class="card mb-0 border border-color">
+    <div class="d-flex h-100 flex-column flex-lg-row">
+      <div class="card-header text-align pt-4 px-4 bg-black d-none d-lg-block">
+        <a href="#" class="d-block d-flex align-items-center text-white" style="line-height: 50px;">
+          <span class="fs-1">Recommend</span>
+          <span class="text-align pt-3 fs-5">推 薦 系 列</span>
+        </a>
+      </div>
+      <img src="./assets/images/art01.jpg" class="w-xl-75 w-lg-50 w-100" style="height:500px;" alt="...">
+      <div class="card-body pt-lg-10 pt-5 px-4 d-flex flex-column justify-content-between align-items-end">
+        <div class="card-body-content">
+          <span class="pb-1 mb-4">Kemus Wu</span>
+          <h1 class="card-title" style="line-height: 70px;">瞳孔:流動的脈絡</h1>
+          <p class="card-text mb-4 mb-lg-0">眼睛，總是吸引著我們的注意力，看、被看，也許眼睛裡有著從另一個世界看我們的世界。</p>
+        </div>
+        <div class="card-body-footer">
+          <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="row g-0 w-100 h-100">
+    <div class="col-lg-6 col-12">
+      <div class="card mb-3 border border-color h-100">
+        <div class="d-flex h-100 flex-wrap-reverse">
+          <div
+            class="card-body pt-md-8 pt-5 px-4 d-flex flex-column justify-content-between align-items-end w-md-50 w-100">
+            <div class="card-body-content h-100">
+              <span class="pb-1 mb-4">Joanne</span>
+              <h2 class="card-title mb-xl-4" style="line-height:46px;">瞳孔:流動的脈絡</h2>
+              <p class="card-text">海洋的奧秘向我們揭示了深不可測的一面，它的深度——反映了我們的恐懼、同時也吸引著我們。</p>
+            </div>
+            <div class="card-body-footer">
+              <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
+            </div>
+          </div>
+          <div class="w-md-50 w-100 ">
+            <img src="./assets/images/art02.jpg" class="w-100 h-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-12">
+      <div class="card mb-3 border border-color h-100">
+        <div class="d-flex h-100 flex-wrap-reverse">
+          <div
+            class="card-body pt-md-8 pt-5 px-4 d-flex flex-column justify-content-between align-items-end w-md-50 w-100">
+            <div class="card-body-content h-100">
+              <span class="pb-1 mb-4">Michael</span>
+              <h2 class="card-title mb-xl-4" style="line-height:46px;">我家窗前的鳥</h2>
+              <p class="card-text">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+            </div>
+            <div class="card-body-footer">
+              <a href="#" class="btn-triangle btn-white btn-border text-black">MORE</a>
+            </div>
+          </div>
+          <div class="w-md-50 w-100">
+            <img src="./assets/images/art21.jpg" class="w-100 h-100" alt="...">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<div class="container">
   <div class="Ranking">
     <nav class="navbar navbar-light bg-light ">
       <div class="container-fluid px-0 border-bottom d-flex align-items-end">
         <a class="navbar-brand fs-1 pb-0">Ranking
           <span class="fs-5 d-none d-md-inline">市價排行榜</span>
         </a>
-        <div class="mb-1">
+        <div class="mb-4px">
           <a href="#" class="btn-triangle text-black btn-border">MORE</a>
         </div>
       </div>
@@ -180,11 +254,14 @@
     <div class="Ranking-cardlist d-flex justify-content-between flex-wrap row g-0 gx-2 h-100">
       <div class="col-12 col-md-4 d-none d-md-block">
         <div class="card border position-relative">
-          <div class="position-relative h-100">
+          <div class="position-relative h-100 mask">
+
             <img src="./assets/images/art04.jpg" class="h-100 w-100" alt="">
-            <div class="position-absolute bottom-0 end-0 mb-1">
+            <div class="position-absolute bottom-0 end-0 mb-4px">
               <a href="#" class="btn-triangle btn-border text-transparent">MORE</a>
             </div>
+
+
           </div>
           <div class="box position-absolute border d-flex justify-content-center align-items-center">
             <span class="fs-2">1</span>
@@ -229,9 +306,9 @@
       </div>
       <div class="col-12 col-md-4 d-none d-md-block">
         <div class="card border position-relative h-100">
-          <div class="position-relative h-100">
+          <div class="position-relative h-100 mask">
             <img src="./assets/images/art05.jpg" class="h-100 w-100" alt="">
-            <div class="position-absolute bottom-0 end-0  mb-1">
+            <div class="position-absolute bottom-0 end-0  mb-4px">
               <a href="#" class="btn-triangle btn-border text-transparent">MORE</a>
             </div>
           </div>
@@ -279,9 +356,9 @@
       </div>
       <div class="col-12 col-md-4 d-none d-md-block">
         <div class="card border position-relative h-100">
-          <div class="position-relative h-100">
+          <div class="position-relative h-100 mask">
             <img src="./assets/images/art06.jpg" class="h-100 w-100" alt="">
-            <div class="position-absolute bottom-0 end-0  mb-1">
+            <div class="position-absolute bottom-0 end-0  mb-4px">
               <a href="#" class="btn-triangle btn-border text-transparent">MORE</a>
             </div>
           </div>
@@ -404,7 +481,7 @@
         <a class="navbar-brand fs-1 pb-0">Artist
           <span class="fs-5 d-none d-md-inline ">最新藝術品</span>
         </a>
-        <div class="mb-1">
+        <div class="mb-4px">
           <a href="#" class="btn-triangle text-black btn-border">MORE</a>
         </div>
       </div>
@@ -453,7 +530,7 @@
         <a class="navbar-brand fs-1 pb-0">Artwork
           <span class="fs-5 d-none d-md-inline">最新藝術品</span>
         </a>
-        <div class="mb-1">
+        <div class="mb-4px">
           <a href="#" class="btn-triangle text-black btn-border">MORE</a>
         </div>
       </div>
@@ -513,7 +590,6 @@
     </div>
   </div>
 </div>
-
 <div class="join">
   <div class="container d-flex flex-column align-items-center">
     <p class="fs-1">Join Us</p>

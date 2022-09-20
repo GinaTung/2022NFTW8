@@ -13551,9 +13551,14 @@ img {
   background-color: transparent;
 }
 
+.footer {
+  font-family: 'Noto Sans TC';
+}
+
 .btn-triangle {
   position: relative;
   padding: 8px 48px;
+  z-index: 10;
 }
 
 .btn-triangle::after {
@@ -13563,6 +13568,7 @@ img {
   bottom: 0;
   border-left: 16px transparent solid;
   border-bottom: 16px #E6553B solid;
+  z-index: 100;
 }
 
 .btn-triangle:hover::after {
@@ -13626,10 +13632,15 @@ img {
   z-index: 5;
 }
 
+.mb-4px {
+  margin-bottom: 4px;
+}
+
 .box {
   width: 64px;
   height: 64px;
-  background: #fff;
+  background-color: #fff;
+  z-index: 5;
 }
 
 .text-transparent {
@@ -13706,7 +13717,7 @@ img {
   opacity: 0.7;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 1;
 }
 
 .swiper {
